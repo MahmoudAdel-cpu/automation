@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Guru Bank">
+    <test name="Guru Test" preserve-order="true" verbose="2" >
+        <classes>
+            <class name="AddCustomerPageTest"/>
+            <class name="EditCustomerPageTest"/>
+            <class name="AddNewAccountPageTest"/>
+            <class name="DeleteCustomerPageTest"/>
+        </classes>
+    </test>
+</suite>
